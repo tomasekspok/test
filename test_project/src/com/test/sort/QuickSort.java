@@ -14,6 +14,7 @@ public class QuickSort {
 	      list[iter] = list[j];
 	      list[j] = temp;
 	      iter++; // posun pozice
+	      System.out.println(iter); // iterator printout
 	    }
 	  }
 	  temp = list[iter]; // prohozeni pivotu zpet

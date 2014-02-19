@@ -2,8 +2,8 @@ package com.test.sort;
 
 public class QuickSort {
 	
-	// preusporada pole na prvky mensi nez pivot, pivot a prvky vetsi nez pivot
 	/**
+	 * preusporada pole na prvky mensi nez pivot, pivot a prvky vetsi nez pivot
 	 * 
 	 * @param list
 	 * @param left
@@ -32,6 +32,7 @@ public class QuickSort {
 	}
 
 	/**
+	 * limited_quicksort
 	 * 
 	 * @param list
 	 * @param left
@@ -48,6 +49,7 @@ public class QuickSort {
 	}
 
 /**
+ *  quicksort method
  * 
  * @param list
  */
@@ -56,6 +58,7 @@ public class QuickSort {
 	}
 	
 	/**
+	 *  App entry point
 	 * 
 	 * @param args
 	 */

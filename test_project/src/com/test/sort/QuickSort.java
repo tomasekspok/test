@@ -40,7 +40,9 @@ public class QuickSort {
 	
 	public static void main(String[] args){
 	  int[] sortMe = {8,5,7,2,0,3,4,5,8,7,0,2,9,4,2};
+	  System.out.println(sortMe);
 	  quicksort(sortMe);
+	  System.out.println(sortMe);
   }
 
 }

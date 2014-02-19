@@ -37,5 +37,10 @@ public class QuickSort {
 	public static void quicksort(int[] list) {
 	  limited_quicksort(list, 0, list.length - 1);
 	}
+	
+	public static void main(String[] args){
+	  int[] sortMe = {8,5,7,2,0,3,4,5,8,7,0,2,9,4,2};
+	  quicksort(sortMe);
+  }
 
 }

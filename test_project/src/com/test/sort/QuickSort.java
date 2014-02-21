@@ -14,20 +14,20 @@ public class QuickSort {
 	  int temp = list[pivot]; // prohozeni pivotu s poslednim prvkem
 	  list[pivot] = list[right];
 	  list[right] = temp;
-	  int index = left;
+	  int i = left;
 	  for (int j = left; j < right; j++) {
 	    if (list[j] < list[right]) { // prvek je mensi, nez pivot
-	      temp = list[index]; // prohozeni pivotu s prvkem na pozici
-	      index = list[j];
+	      temp = list[i]; // prohozeni pivotu s prvkem na pozici
+	      i = list[j];
 	      list[j] = temp;
-	      index++; // posun pozice
-	      System.out.println(index); // iterator printout
+	      i++; // posun pozice
+	      System.out.println(i); // iterator printout
 	    }
 	  }
-	  temp = list[index]; // prohozeni pivotu zpet
-	  list[index] = list[right];
+	  temp = list[i]; // prohozeni pivotu zpet
+	  list[i] = list[right];
 	  list[right] = temp;
-	  return index; // vrati novy index pivotu
+	  return i; // vrati novy index pivotu
 	}
 
 	/**

@@ -6,7 +6,6 @@ public class QuickSort {
 	 * preusporada pole na prvky mensi nez pivot, pivot a prvky vetsi nez pivot
 	 * 
 	 * @param list
-	 * @param left
 	 * @param right
 	 * @param pivot    
 	 * @return

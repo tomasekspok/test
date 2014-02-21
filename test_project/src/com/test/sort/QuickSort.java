@@ -15,20 +15,20 @@ public class QuickSort {
 	  int temp = list[pivot]; // prohozeni pivotu s poslednim prvkem
 	  list[pivot] = list[right];
 	  list[right] = temp;
-	  int iter = left;
+	  int index = left;
 	  for (int j = left; j < right; j++) {
 	    if (list[j] < list[right]) { // prvek je mensi, nez pivot
-	      temp = list[iter]; // prohozeni pivotu s prvkem na pozici
-	      list[iter] = list[j];
+	      temp = list[index]; // prohozeni pivotu s prvkem na pozici
+	      list[index] = list[j];
 	      list[j] = temp;
-	      iter++; // posun pozice
-	      System.out.println(iter); // iterator printout
+	      index++; // posun pozice
+	      System.out.println(index); // iterator printout
 	    }
 	  }
-	  temp = list[iter]; // prohozeni pivotu zpet
-	  list[iter] = list[right];
+	  temp = list[index]; // prohozeni pivotu zpet
+	  list[index] = list[right];
 	  list[right] = temp;
-	  return iter; // vrati novy index pivotu
+	  return index; // vrati novy index pivotu
 	}
 
 	/**

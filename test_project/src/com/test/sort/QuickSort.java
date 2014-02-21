@@ -8,7 +8,7 @@ public class QuickSort {
 	 * @param list
 	 * @param right
 	 * @param pivot    
-	 * @return
+	 * @return   
 	 */
 	public static int divide(int[] list, int left, int right, int pivot) {
 	  int temp = list[pivot]; // prohozeni pivotu s poslednim prvkem

@@ -7,7 +7,7 @@ public class QuickSort {
 	 * 
 	 * @param list
 	 * @param right
-	 * @param pivot    rewrw
+	 * @param pivot    
 	 * @return   
 	 */
 	public static int divide(int[] list, int left, int right, int pivot) {

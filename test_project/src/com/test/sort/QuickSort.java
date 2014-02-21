@@ -18,7 +18,7 @@ public class QuickSort {
 	  for (int j = left; j < right; j++) {
 	    if (list[j] < list[right]) { // prvek je mensi, nez pivot
 	      temp = list[i]; // prohozeni pivotu s prvkem na pozici
-	      i = list[j];
+	      list[i] = list[j];
 	      list[j] = temp;
 	      i++; // posun pozice
 	      System.out.println(i); // iterator printout
